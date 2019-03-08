@@ -23,18 +23,9 @@ namespace QuanLyKTX
         
         private void fmMain_Load(object sender, EventArgs e)
         {
-            TestThoi a = new TestThoi();
-            skins();
-            DevExpress.XtraTab.XtraTabPage xtraTab = new DevExpress.XtraTab.XtraTabPage();
-            DevExpress.XtraTab.XtraTabPage xtraTab1 = new DevExpress.XtraTab.XtraTabPage();
-            xtraTab.Name = "Testadd";
-           xtraTab.Text = "lồn chim cu cặc bím";
-            xtraTab1.Text = "aaaaaa";
-            xtraTab.Controls.Add(a);
-            xtraTab1.Controls.Add(a);
-            xtabHienThi.TabPages.Add(xtraTab);
-            xtabHienThi.TabPages.Add(xtraTab1);
            
+            skins();
+  
 
         }
 
@@ -52,6 +43,16 @@ namespace QuanLyKTX
             // TabControl.SelectedTabPageIndex = i - 1;
         }
 
-       
+        private void btnHome_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Home home = new Home();
+            DevExpress.XtraTab.XtraTabPage xtraTabHome = new DevExpress.XtraTab.XtraTabPage();
+            xtraTabHome.Name = "tabHome";
+            xtraTabHome.Text = "Nhà";
+            xtraTabHome.Controls.Add(home);
+            home.Dock = DockStyle.Fill;
+            
+            xtabHienThi.TabPages.Add(xtraTabHome);
+        }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyKTX
 {
-    public partial class TestThoi : UserControl
+    public partial class Home : UserControl
     {
-        public TestThoi()
+        public Home()
         {
             InitializeComponent();
         }
