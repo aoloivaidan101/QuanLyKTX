@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyKTX", "QuanLyKTX\QuanLyKTX.csproj", "{B0A5610E-D70F-416C-9BF5-3E34070244F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A5610E-D70F-416C-9BF5-3E34070244F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A5610E-D70F-416C-9BF5-3E34070244F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A5610E-D70F-416C-9BF5-3E34070244F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A5610E-D70F-416C-9BF5-3E34070244F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BF4D5DF-7258-4A3C-AC1A-81EA53E56123}
+	EndGlobalSection
+EndGlobal
