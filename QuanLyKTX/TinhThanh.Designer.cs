@@ -107,7 +107,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
+            this.btnDelete.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.ImageOptions.Image")));
             this.btnDelete.Location = new System.Drawing.Point(317, 92);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(82, 22);
@@ -117,7 +117,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.btnEdit.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnEdit.ImageOptions.Image")));
             this.btnEdit.Location = new System.Drawing.Point(227, 92);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(86, 22);
@@ -127,7 +127,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.btnSave.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.ImageOptions.Image")));
             this.btnSave.Location = new System.Drawing.Point(117, 92);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(106, 22);
